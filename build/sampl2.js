@@ -1,4 +1,3 @@
-"use strict";
 // //Array In Details
 // let a = [1, 2, 3, 4, 5];
 // a.push(6);
@@ -52,20 +51,20 @@
 // let man: [number, boolean, ...string[]] = [2, true, "Abdul moiz", "Zafar Ali"];
 // console.log(man);
 // enum
-var Role;
-(function (Role) {
-    Role[Role["Student"] = 0] = "Student";
-    Role[Role["Teacher"] = 1] = "Teacher";
-    Role[Role["Principal"] = 2] = "Principal";
-})(Role || (Role = {}));
-const { Student, Teacher, Principal } = Role;
-const students = {
-    names: "Abdul moiz",
-    roles: [Student, Teacher],
-};
-if (students.roles.includes(Student)) {
-    console.log(students.names + " is a Good Student");
-    if (students.roles.includes(Teacher)) {
-        console.log(students.names + " is also Good Teacher");
-    }
-}
+// enum Role {
+//   Student,
+//   Teacher,
+//   Principal,
+// }
+// const { Student, Teacher, Principal } = Role;
+// const students = {
+//   names: "Abdul moiz",
+//   roles: [Student, Teacher],
+// };
+// if (students.roles.includes(Student)) {
+//   console.log(students.names + " is a Good Student");
+//   if (students.roles.includes(Teacher)) {
+//     console.log(students.names + " is also Good Teacher");
+//   }
+// }
+"use strict";

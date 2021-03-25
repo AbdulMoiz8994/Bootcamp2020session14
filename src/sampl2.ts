@@ -68,20 +68,50 @@
 // console.log(man);
 
 // enum
-enum Role {
-  Student,
-  Teacher,
-  Principal,
-}
-const { Student, Teacher, Principal } = Role;
+// enum Role {
+//   Student,
+//   Teacher,
+//   Principal,
+// }
+// const { Student, Teacher, Principal } = Role;
 
-const students = {
-  names: "Abdul moiz",
-  roles: [Student, Teacher],
-};
-if (students.roles.includes(Student)) {
-  console.log(students.names + " is a Good Student");
-  if (students.roles.includes(Teacher)) {
-    console.log(students.names + " is also Good Teacher");
-  }
-}
+// const students = {
+//   names: "Abdul moiz",
+//   roles: [Student, Teacher],
+// };
+// if (students.roles.includes(Student)) {
+//   console.log(students.names + " is a Good Student");
+//   if (students.roles.includes(Teacher)) {
+//     console.log(students.names + " is also Good Teacher");
+//   }
+// }
+"use strict";
+
+//this is type assertion where  we define the type of var after declaration
+// let myName: string = "moiz";
+// (<string>myName).length;
+// console.log(myName);
+
+// let bool;
+// bool = true;
+// console.log(bool as boolean);
+
+//This is union we can assign diff types of datatypes
+// let mult = 10;
+// function addPadding(paddingValue: string | number) {
+//   if (typeof paddingValue === "string") {
+//     paddingValue = Number(paddingValue);
+//   }
+//   mult *= paddingValue;
+// }
+// addPadding(10);
+// console.log(mult);
+
+// const person: (number | string)[] = ["moiz", 1];
+// console.log(person);
+
+// function FirstFunc(resFor:("Teacehr" | "Student")) {
+
+// }
+
+// FirstFunc("Student")
